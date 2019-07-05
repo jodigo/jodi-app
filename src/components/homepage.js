@@ -4,7 +4,9 @@ class HomePage extends Component {
   render() {
     return (
       <div style={{ width: '100%', margin: 'auto' }}>
-        <h1>jodigo</h1>
+        <div className="homepage">
+          <h1>jodigo</h1>
+        </div>
       </div>
     );
   }

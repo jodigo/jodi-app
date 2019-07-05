@@ -11,20 +11,20 @@ class App extends Component {
       <div className="App">
         <div className="demo-big-content">
           <Layout>
-            <Header className="header-background" title=" " scroll>
+            <Header className="header-bar" title=" " scroll>
               <Navigation>
                 <Link to="/">home</Link>
-                <Link to="/career">career</Link>
-                <Link to="/resume">resume</Link>
+                <Link to="/about">about</Link>
+                <Link to="/feed">feed</Link>
                 <Link to="/contact">contact</Link>
               </Navigation>
             </Header>
             <Drawer title="">
               <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/career">Career</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/">home</Link>
+                <Link to="/about">about</Link>
+                <Link to="/feed">feed</Link>
+                <Link to="/contact">contact</Link>
               </Navigation>
             </Drawer>
             <Content>

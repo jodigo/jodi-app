@@ -2,14 +2,22 @@
   text-align: center;
 }
 
-.header-background {
-  background: white !important;
-}
-
 .mdl-layout__drawer-button {
   color: grey !important;
 }
 
 a {
   color: black !important;
+}
+
+.header-bar {
+  background: white !important;
+}
+
+.header-bar a:hover {
+  text-decoration: underline;
+}
+
+.header-bar a:active {
+  text-decoration: line-through;
 }
