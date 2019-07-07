@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Card, CardText, ProgressBar } from 'react-mdl';
+import { Grid, Cell, Card, CardText } from 'react-mdl';
+import ProgressBar from 'react-bootstrap/ProgressBar';
+import CareerCards from './careercards'
 
 class About extends Component {
   render() {
@@ -11,38 +13,49 @@ class About extends Component {
             
             <p>I'm originally from Bali, Indonesia but these days I live in Vancouver, Canada.</p>
         </div>
-        <Grid className="about-grid-careers">
-          <Card shadow={0} style={{width: '300px', margin: '5px', padding: 'auto'}}>
-            <CardText>
-              Junior Full Stack Developer
-            </CardText>
-          </Card>
-          <Card shadow={0} style={{width: '300px', margin: '5px', padding: 'auto'}}>
-            <CardText>
-              Software Developer
-            </CardText>
-          </Card>
-          <Card shadow={0} style={{width: '300px', margin: '5px', padding: 'auto'}}>
-            <CardText>
-              Learning Tech Rover
-            </CardText>
-          </Card>
-          <Card shadow={0} style={{width: '300px', margin: '5px', padding: 'auto'}}>
-            <CardText>
-              Computer Programmer
-            </CardText>
-          </Card>
-        </Grid>
-        <Grid className="about-grid-projects">
-          <Cell col={4}>project 1</Cell>
-          <Cell col={4}>project 2</Cell>
-          <Cell col={4}>project 3</Cell>
-          <Cell col={4}>project 4</Cell>
-        </Grid>
+
+        <h5>Experiences</h5><hr></hr>
+        <CareerCards
+          start={"May 2019"}
+          end={"August 2019"}
+          title={"Junior Full Stack Developer"}
+          location={"UBC (Health Research Pavilion)"}
+          descriptions={["Implemented Natural Language Processing model for short text message analytic tools using predefined label and topic modelling with UBC Data Science Research Experts", 
+          "Developed data visualization features to provide interactive informative display of processed data using D3.js, Plotly and Angular 6",
+          "Redesigned the API and application architecture using Python, Microsoft Azure and Docker to create serverless microservice architecture which increases modularity and reduces costs"
+          ]}
+          techs={"Angular 6, React, Microsoft Azure, Docker, PostgreSQL, Scikit Learn, Tensorflow"}
+        />
+        <CareerCards
+          start={"January 2018"}
+          end={"August 2018"}
+          title={"Software Developer"}
+          location={"Glacier Media Inc - Real Estate Wire"}
+          descriptions={["Integrated an Event Tracking system to track the user activity using Google Bigquery for data analytics",
+          "Migrated database from third party CMS Polopoly to the local PostgreSQL database",
+          "Developed real estate news site using Coffeescript and AWS and search results localization which increased page traffic by 20%",
+          "Participated in bi-weekly sprints and kanban flow in agile culture with JIRA ticketing system"
+          ]}
+          techs={"AWS, Coffeescript, Google Bigquery, JIRA, PostgreSQL, Redis, Ruby on Rails 5, Sass"}
+        />
+    
         <div className="about-skills">
+        <h5>Skills</h5><hr></hr>
           <div className="about-skills-container">
-            <h6>HTML</h6>
-            <ProgressBar progress={33} label={`33%`} buffer={95} />
+            <h6>HTML5 + CSS</h6> <ProgressBar now={90} label={`90%`}/>
+            <h6>Javascript</h6> <ProgressBar now={82} label={`82%`}/>
+            <h6>Python</h6> <ProgressBar now={80} label={`80%`}/>
+            <h6>Ruby on Rails</h6> <ProgressBar now={80} label={`80%`}/>
+            <h6>C/C++</h6> <ProgressBar now={75} label={`75%`}/>
+            <h6>Basketball</h6> <ProgressBar now={100} label={`I should be in NBA %`}/>
+          </div>
+        </div>
+        <div className="education">
+          <h5>Education</h5><hr></hr>
+          <div className="about-education-container">
+            <p>
+              <strong>University of British Columbia</strong> | Bachelor of Applied Science. Electrical Engineering, 2020.
+            </p>
           </div>
         </div>
       </div>

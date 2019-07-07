@@ -147,7 +147,7 @@ svg path {
 
 .light-mode {
   background-color: #fff ;
-  color: #333;
+  color: #111;
   transition: background-color 0.1s ease-out;
 }
 .dark-mode {
