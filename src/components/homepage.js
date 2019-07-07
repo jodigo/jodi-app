@@ -5,7 +5,9 @@ class HomePage extends Component {
     return (
       <div style={{ width: '100%', margin: 'auto' }}>
         <div className="homepage">
-          <h1>jodigo</h1>
+          <div className="homepage-banner">
+            <h1 className="homepage-title">jodigo</h1>
+          </div>   
         </div>
       </div>
     );

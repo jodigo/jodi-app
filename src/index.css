@@ -1,9 +1,22 @@
+@font-face {
+  font-family: 'Lars Sans';
+  src: url('/assets/Lars-Light.eot');
+  src: url('/assets/Lars-Light.eot?#iefix') format('embedded-opentype'),
+       url('/assets/Lars-Light.woff2') format('woff2'),
+       url('/assets/Lars-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lars Mono';
+  src: url('/assets/Lars-Mono.eot');
+  src: url('/assets/Lars-Mono.eot?#iefix') format('embedded-opentype'),
+       url('/assets/Lars-Mono.woff2') format('woff2'),
+       url('/assets/Lars-Mono.woff') format('woff');
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Lars Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,5 +1,45 @@
+@font-face {
+  font-family: 'Lars Sans';
+  src: url('./assets/fonts/Lars-Light.eot');
+  src: url('./assets/fonts/Lars-Light.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/Lars-Light.woff2') format('woff2'),
+       url('./assets/fonts/Lars-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Lars Mono';
+  src: url('./assets/fonts/Lars-Mono.eot');
+  src: url('./assets/fonts/Lars-Mono.eot?#iefix') format('embedded-opentype'),
+       url('./assets/fonts/Lars-Mono.woff2') format('woff2'),
+       url('./assets/fonts/Lars-Mono.woff') format('woff');
+}
+
 .App {
   text-align: center;
+  font-family: 'Lars Sans', sans-serif !important;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings:"kern" 1;
+  -ms-font-feature-settings:"kern" 1;
+  -o-font-feature-settings:"kern" 1;
+  -webkit-font-feature-settings:"kern" 1;
+  font-feature-settings:"kern" 1;
+  font-kerning: normal;
+}
+
+h1 {
+  font-family: 'Lars Mono', sans-serif !important;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Lars Sans', sans-serif !important;
+}
+
+a, p {
+  font-family: 'Lars Sans', sans-serif !important;
+  font-size: 16px !important;
 }
 
 .mdl-layout__drawer-button {
@@ -7,17 +47,111 @@
 }
 
 a {
-  color: black !important;
+  color: inherit !important;
 }
 
-.header-bar {
-  background: white !important;
+#header-bar {
+  background-color: white;
+}
+#header-bar.dark-mode a{
+  color: #ddd !important;
 }
 
-.header-bar a:hover {
+#header-bar a:hover {
   text-decoration: underline;
 }
 
-.header-bar a:active {
+#header-bar a:active {
   text-decoration: line-through;
+}
+
+#page-container {
+  width: 60%;
+  margin: auto;
+}
+
+.homepage-banner {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+#toggle-light {
+  z-index: 10;
+  background: none;
+  color: inherit;
+  border: 0;
+  font-size: 1rem;
+  position: absolute;
+  top: 1;
+  line-height: 1;
+  right: 50%;
+  padding: 0.75rem;
+  outline: 0;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+}
+svg {
+  height: 2rem;
+  width: 2rem;
+}
+svg path {
+  transform-origin: 50% 50%;
+  transition: transform 150ms ease-out, opacity 150ms ease-out;
+}
+#toggle-light.light-mode svg path {
+  transition-delay: 125ms;
+}
+#toggle-light.dark-mode svg path {
+  opacity: 0;
+  transform: scale(0.8);
+}
+#orb {
+  transform-origin: 50% 50%;
+  transition: transform 150ms ease-out, opacity 150ms ease-out;
+  transform: translate(30px, 30px);
+}
+#cut {
+  transition: transform 150ms ease-out, opacity 150ms ease-out;
+  transform-origin: 50% 50%;
+  transform: translate(30px, -30px);
+}
+#toggle-light.dark-mode #cut {
+  transform: translate(10px, -10px);
+  transition-delay: 125ms;
+  fill: rgb(0,0,0);
+}
+#toggle-light.dark-mode #orb {
+  transform: scale(1.3) translate(30px, 30px);
+  transition-delay: 125ms;
+  fill: white;
+}
+#toggle-light.light-mode #cut {
+  transform: translate(10px, -10px);
+  transition-delay: 125ms;
+  display: none;
+}
+#toggle-light.light-mode #orb {
+  transform: scale(1.05) translate(30px, 30px);
+  transition-delay: 125ms;
+  fill: black;
+}
+
+/* Contact Page  */
+.contact-icons i {
+  font-size: 2em;
+  padding: 2px;
+}
+
+.light-mode {
+  background-color: #fff ;
+  color: #333;
+  transition: background-color 0.1s ease-out;
+}
+.dark-mode {
+  background-color: #1a1919 !important;
+  color: #eee !important;
+  transition: background-color 0.1s ease-out;
 }
