@@ -10,9 +10,15 @@ class About extends Component {
         <div className="about-grid-info">
             <h3>Hi, I'm Jodi.</h3> 
             <h5>Software engineer, full-stack developer. </h5>
-            
-            <p>I'm originally from Bali, Indonesia but these days I live in Vancouver, Canada.</p>
+            <br></br>
+            <p>I'm originally from Bali, Indonesia, but these days I live in Vancouver, Canada.</p>
+            <p>
+              My favourite things to do are exploring food, playing basketball and shopping.
+            </p>
+            <a href="#" class="download-resume">View my resume</a>
         </div>
+        <br></br>
+        <br></br>
 
         <h5>Experiences</h5><hr></hr>
         <CareerCards
@@ -22,7 +28,7 @@ class About extends Component {
           location={"UBC (Health Research Pavilion)"}
           descriptions={["Implemented Natural Language Processing model for short text message analytic tools using predefined label and topic modelling with UBC Data Science Research Experts", 
           "Developed data visualization features to provide interactive informative display of processed data using D3.js, Plotly and Angular 6",
-          "Redesigned the API and application architecture using Python, Microsoft Azure and Docker to create serverless microservice architecture which increases modularity and reduces costs"
+          "Redesigned the API and application architecture using Python, Docker and AWS from MS Azure to create partial-serverless microservice architecture which increases modularity and reduces costs"
           ]}
           techs={"Angular 6, React, Microsoft Azure, Docker, PostgreSQL, Scikit Learn, Tensorflow"}
         />
@@ -58,6 +64,8 @@ class About extends Component {
             </p>
           </div>
         </div>
+        <br></br>
+        
       </div>
     );
   }

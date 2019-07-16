@@ -10,10 +10,10 @@ class CareerCards extends Component {
         });
         return(
             <Grid className="about-grid-careers">
-                <Cell col={4}>
+                <Cell col={3}>
                     <p>{this.props.start} - {this.props.end}</p>
                 </Cell>
-                <Cell col={8}>
+                <Cell col={9}>
                     <p><strong>{this.props.title}</strong> at {this.props.location}</p>
                     <ul>{descriptions}</ul>
                     <p>[{this.props.techs}]</p>

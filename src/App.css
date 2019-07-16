@@ -16,6 +16,7 @@
 .App {
   text-align: center;
   font-family: 'Lars Sans', sans-serif !important;
+  margin-top: 30px !important;
 }
 
 html {
@@ -52,6 +53,7 @@ a {
 
 #header-bar {
   background-color: white;
+  position: fixed;
 }
 #header-bar.dark-mode a{
   color: #ddd !important;
@@ -66,15 +68,10 @@ a {
 }
 
 #page-container {
-  width: 60%;
+  width: 65%;
   margin: auto;
-}
-
-.homepage-banner {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #toggle-light {
@@ -84,7 +81,7 @@ a {
   border: 0;
   font-size: 1rem;
   position: absolute;
-  top: 1;
+  top: 0;
   line-height: 1;
   right: 50%;
   padding: 0.75rem;
@@ -139,19 +136,59 @@ svg path {
   fill: black;
 }
 
+.light-mode {
+  background-color: #fff ;
+  color: #111;
+  transition: background-color 0s ease-out;
+}
+.dark-mode {
+  background-color: #1a1919 !important;
+  color: #eee !important;
+  transition: background-color 0s ease-out;
+}
+
+/* Home Page */
+.homepage-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle; 
+  height: 90vh;
+}
+
+/* About Page */
+.download-resume {
+  text-decoration: underline !important;
+}
+
+/* Feed Page */
+#feed-container {
+  display: flex !important;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 50%;
+  margin-top: 75px;
+  width: 50%;
+}
+
+.post-container {
+  padding: 0 1rem 4rem;
+  display: block;
+}
+
+.map-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background: grey;
+}
+
 /* Contact Page  */
 .contact-icons i {
   font-size: 2em;
   padding: 2px;
 }
 
-.light-mode {
-  background-color: #fff ;
-  color: #111;
-  transition: background-color 0.1s ease-out;
-}
-.dark-mode {
-  background-color: #1a1919 !important;
-  color: #eee !important;
-  transition: background-color 0.1s ease-out;
-}
+

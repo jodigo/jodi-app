@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return (
       <div id="page-container">
-        <h1>contact</h1>
+        <h1>contact;</h1>
         <div className="contact-icons">
           <div>
             <p>Vancouver, Canada</p>

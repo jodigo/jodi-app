@@ -54,7 +54,7 @@ export default function App() {
             <NavLink to="/contact" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Contact</p></NavLink>
           </Navigation>
         </Header>
-        <Drawer title="j o d i g o">
+        <Drawer title="j o d i g o ;" id="header-bar">
           <Navigation>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
