@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/jodi-app/precache-manifest.e987f7a3412155a2760d87391c87eb87.js"
+  "/jodi-app/precache-manifest.56af594976d2f506fc2384162fdd73b8.js"
 );
 
 workbox.clientsClaim();
