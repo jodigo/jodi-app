@@ -9,12 +9,12 @@ class CareerCards extends Component {
             );
         });
         return(
-            <Grid className="about-grid-careers">
+            <Grid className="about-grid-careers fix-margin">
                 <Cell col={3}>
                     <p>{this.props.start} - {this.props.end}</p>
                 </Cell>
                 <Cell col={9}>
-                    <p><strong>{this.props.title}</strong> at {this.props.location}</p>
+                    <p><strong>{this.props.title}</strong> at <a href={this.props.link}>{this.props.location}</a></p>
                     <ul>{descriptions}</ul>
                     <p>[{this.props.techs}]</p>
                 </Cell>

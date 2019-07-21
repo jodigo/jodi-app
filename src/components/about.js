@@ -7,17 +7,40 @@ class About extends Component {
   render() {
     return (
       <div id="page-container">
-        <div className="about-grid-info">
-            <h3>Hi, I'm Jodi.</h3> 
-            <h5>Software engineer, full-stack developer. </h5>
-            <br></br>
-            <p>I'm originally from Bali, Indonesia, but these days I live in Vancouver, Canada.</p>
-            <p>
-              My favourite things to do are exploring food, playing basketball and shopping.
-            </p>
-            <a href="#" class="download-resume">View my resume</a>
+        <div>
+          <div className="about-grid-info">
+              <img className="pp"></img>
+              
+              <div>
+              <h1>about;</h1>
+                <div className="contact-icons">
+                  <div>
+                    <p>Vancouver, Canada</p>
+                  </div>
+                  <div>
+                    <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1098@gmail.com</a></p>
+                  </div>
+                  <div>
+                    <p>
+                    <a href="https://www.instagram.com/jodigunawan/" target="_blank" rel="noopener noreferrer">
+                      Instagram
+                    </a>
+                    /
+                    <a href="https://www.linkedin.com/in/jodi-gunawan/" target="_blank" rel="noopener noreferrer">
+                      LinkedIn
+                    </a>
+                    / 
+                    <a href="https://github.com/jodigo" target="_blank" rel="noopener noreferrer">
+                      Github
+                    </a>
+                    </p>
+                  </div>
+                </div>
+                <a href="#" class="download-resume">Download</a>
+              </div> 
+          </div>
+          
         </div>
-        <br></br>
         <br></br>
 
         <h5>Experiences</h5><hr></hr>
@@ -28,8 +51,9 @@ class About extends Component {
           location={"UBC (Health Research Pavilion)"}
           descriptions={["Implemented Natural Language Processing model for short text message analytic tools using predefined label and topic modelling with UBC Data Science Research Experts", 
           "Developed data visualization features to provide interactive informative display of processed data using D3.js, Plotly and Angular 6",
-          "Redesigned the API and application architecture using Python, Docker and AWS from MS Azure to create partial-serverless microservice architecture which increases modularity and reduces costs"
+          "Redesigned the API and application architecture using Python, AWS, MS Azure and Docker, to create partial-serverless microservice architecture which increases modularity and reduces costs"
           ]}
+          link={"https://www.msfhr.org/smart-text-analytic-tools-stat-analysis-patient-centred-communications-strengthen-health-systems-bc"}
           techs={"Angular 6, React, Microsoft Azure, Docker, PostgreSQL, Scikit Learn, Tensorflow"}
         />
         <CareerCards
@@ -42,28 +66,39 @@ class About extends Component {
           "Developed real estate news site using Coffeescript and AWS and search results localization which increased page traffic by 20%",
           "Participated in bi-weekly sprints and kanban flow in agile culture with JIRA ticketing system"
           ]}
+          link={"https://www.rew.ca/news"}
           techs={"AWS, Coffeescript, Google Bigquery, JIRA, PostgreSQL, Redis, Ruby on Rails 5, Sass"}
+        />
+        <CareerCards
+          start={"September 2017"}
+          end={"December 2017"}
+          title={"Learning Technology Rover"}
+          location={"UBC Applied Science"}
+          descriptions={["Utilized Blackboard - Connect to managing students’ grades database and ensuring bugless course content by testing",
+          "Provided initial face-to-face and remote learning technology support for instructors and faculty members",
+          "Teaching assistant for the first year courses: APSC100 and APSC101"
+          ]}
+          techs={"HTML5, CSS, WordPress, Connect, Python"}
         />
     
         <div className="about-skills">
         <h5>Skills</h5><hr></hr>
           <div className="about-skills-container">
-            <h6>HTML5 + CSS</h6> <ProgressBar now={90} label={`90%`}/>
-            <h6>Javascript</h6> <ProgressBar now={82} label={`82%`}/>
-            <h6>Python</h6> <ProgressBar now={80} label={`80%`}/>
-            <h6>Ruby on Rails</h6> <ProgressBar now={80} label={`80%`}/>
-            <h6>C/C++</h6> <ProgressBar now={75} label={`75%`}/>
-            <h6>Basketball</h6> <ProgressBar now={100} label={`I should be in NBA %`}/>
-          </div>
-        </div>
-        <div className="education">
-          <h5>Education</h5><hr></hr>
-          <div className="about-education-container">
-            <p>
-              <strong>University of British Columbia</strong> | Bachelor of Applied Science. Electrical Engineering, 2020.
+            <p className="ul_top_hypers">
+              HTML5,
+              Javascript,
+              Python,
+              Ruby on Rails,
+              C/C++,
+              XML,
+              SQL, 
+              Git,
+              AWS, Angular, Docker, Microsoft Azure, NoSQL, PostgreSQL, React, Redis, ROS, Sass, Tensorflow,
+              Basketball
             </p>
           </div>
         </div>
+        
         <br></br>
         
       </div>

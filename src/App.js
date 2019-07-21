@@ -51,7 +51,7 @@ export default function App() {
             <NavLink to="/home" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Home</p></NavLink>
             <NavLink to="/about" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>About</p></NavLink>
             <NavLink to="/feed" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Feed</p></NavLink>
-            <NavLink to="/contact" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Contact</p></NavLink>
+            {/* <NavLink to="/contact" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Contact</p></NavLink> */}
           </Navigation>
         </Header>
         <Drawer title="j o d i g o ;" id="header-bar">
@@ -59,7 +59,7 @@ export default function App() {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/feed">Feed</Link>
-            <Link to="/contact">Contact</Link>
+            {/* <Link to="/contact">Contact</Link> */}
           </Navigation>
         </Drawer>
         <Content>
