@@ -21,8 +21,8 @@ export default class HomePage extends Component {
                 startDelay={1000}
                 onTypingDone={this.onHeaderTyped}
                 cursor={{ hideWhenDone: true }}>
-                jodigunawan;
-                <Typist.Backspace count={8} delay={1700} />
+                jodigunawan
+                <Typist.Backspace count={7} delay={1700} />
                 go;
                 <Typist.Delay delay={800}/>
                 )
