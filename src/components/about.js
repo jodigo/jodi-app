@@ -10,7 +10,6 @@ class About extends Component {
         <div>
           <div className="about-grid-info">
               <img className="pp"></img>
-              
               <div>
               <h1>about;</h1>
                 <div className="contact-icons">
