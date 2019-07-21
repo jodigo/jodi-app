@@ -8,7 +8,7 @@ import Contact from './contact';
 
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={HomePage} />
+    <Route exact path="/jodi-app" component={HomePage} />
     <Route path="/about" component={About} />
     <Route path="/feed" component={Feed} />
     <Route path="/contact" component={Contact} />

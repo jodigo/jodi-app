@@ -68,10 +68,10 @@ a {
 }
 
 #page-container {
-  width: 65%;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
+  padding: 1rem;
 }
 
 #toggle-light {
@@ -186,8 +186,8 @@ svg path {
   -o-object-fit: cover;
   object-fit: cover;
   margin-right: 2rem;
-  height: 9rem;
-  width: 9rem;
+  height: 90px;
+  width: 90px;
   background-image: url('./assets/pp.png');
   background-size: cover;
   background-repeat: no-repeat;

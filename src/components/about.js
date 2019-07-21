@@ -35,7 +35,7 @@ class About extends Component {
                     </p>
                   </div>
                 </div>
-                <a href="#" class="download-resume">Download</a>
+                <a href="#" className="download-resume">Download</a>
               </div> 
           </div>
           
