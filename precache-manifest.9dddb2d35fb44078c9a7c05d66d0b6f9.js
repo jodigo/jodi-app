@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fe257c4d18a550acb04e2333efc3c689",
-    "url": "/jodi-app/static/media/Lars-Light.fe257c4d.woff2"
+    "revision": "0cd39448921de878ac33622c0c61db58",
+    "url": "/jodi-app/static/media/Lars-Mono.0cd39448.woff2"
   },
   {
-    "revision": "f6d0f760a8ab637b19bb",
-    "url": "/jodi-app/static/css/main.09bd8cef.chunk.css"
+    "revision": "0fe09d9f1af0c98faf0f",
+    "url": "/jodi-app/static/css/main.b49ebbce.chunk.css"
   },
   {
     "revision": "ecfda2155565bd386784",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/jodi-app/static/js/2.d254ca7e.chunk.js"
   },
   {
-    "revision": "0cd39448921de878ac33622c0c61db58",
-    "url": "/jodi-app/static/media/Lars-Mono.0cd39448.woff2"
+    "revision": "fe257c4d18a550acb04e2333efc3c689",
+    "url": "/jodi-app/static/media/Lars-Light.fe257c4d.woff2"
   },
   {
-    "revision": "f6d0f760a8ab637b19bb",
-    "url": "/jodi-app/static/js/main.f6d0f760.chunk.js"
+    "revision": "0fe09d9f1af0c98faf0f",
+    "url": "/jodi-app/static/js/main.0fe09d9f.chunk.js"
   },
   {
     "revision": "703f6f95453b67cfd952c9da9c2d32a5",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/jodi-app/static/css/2.dcc4c530.chunk.css"
   },
   {
-    "revision": "091cd676e79ecbf805d703b5e5fc08be",
+    "revision": "feadbaed7375048ec32693411564dcb2",
     "url": "/jodi-app/index.html"
   }
 ];
