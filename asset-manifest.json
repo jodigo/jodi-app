@@ -1,16 +1,16 @@
 {
-  "main.css": "/jodi-app/static/css/main.b49ebbce.chunk.css",
-  "main.js": "/jodi-app/static/js/main.0fe09d9f.chunk.js",
-  "main.js.map": "/jodi-app/static/js/main.0fe09d9f.chunk.js.map",
+  "main.css": "/jodi-app/static/css/main.233ddd03.chunk.css",
+  "main.js": "/jodi-app/static/js/main.bee1ef42.chunk.js",
+  "main.js.map": "/jodi-app/static/js/main.bee1ef42.chunk.js.map",
   "runtime~main.js": "/jodi-app/static/js/runtime~main.ecfda215.js",
   "runtime~main.js.map": "/jodi-app/static/js/runtime~main.ecfda215.js.map",
   "static/css/2.dcc4c530.chunk.css": "/jodi-app/static/css/2.dcc4c530.chunk.css",
-  "static/js/2.d254ca7e.chunk.js": "/jodi-app/static/js/2.d254ca7e.chunk.js",
-  "static/js/2.d254ca7e.chunk.js.map": "/jodi-app/static/js/2.d254ca7e.chunk.js.map",
+  "static/js/2.9574e29b.chunk.js": "/jodi-app/static/js/2.9574e29b.chunk.js",
+  "static/js/2.9574e29b.chunk.js.map": "/jodi-app/static/js/2.9574e29b.chunk.js.map",
   "index.html": "/jodi-app/index.html",
-  "precache-manifest.79e6aa37762d9be1592dcefda1ed199c.js": "/jodi-app/precache-manifest.79e6aa37762d9be1592dcefda1ed199c.js",
+  "precache-manifest.fc98c060f06da54c2e801defa9c1b20b.js": "/jodi-app/precache-manifest.fc98c060f06da54c2e801defa9c1b20b.js",
   "service-worker.js": "/jodi-app/service-worker.js",
   "static/css/2.dcc4c530.chunk.css.map": "/jodi-app/static/css/2.dcc4c530.chunk.css.map",
-  "static/css/main.b49ebbce.chunk.css.map": "/jodi-app/static/css/main.b49ebbce.chunk.css.map",
+  "static/css/main.233ddd03.chunk.css.map": "/jodi-app/static/css/main.233ddd03.chunk.css.map",
   "static/media/App.css": "/jodi-app/static/media/pp.d1dbdfc8.png"
 }
