@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Typist from 'react-typist';
-import { NavLink } from 'react-router-dom';
 
 export default class HomePage extends Component {
   state = {

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Map from './map'
 
 class Feed extends Component {
   render() {
     return (
       <div id="feed-container">
-        <div class="post-container">
+        <div className="post-container">
           <h1>feed;</h1>
           <p>wip</p>
           <p>wip</p>
@@ -22,8 +23,8 @@ class Feed extends Component {
           <p>wip</p>
           <p>wip</p>
         </div>
-        <div class="map-container">
-          map
+        <div className="map-container">
+          <Map/>
         </div>
       </div>      
     );

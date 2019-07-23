@@ -7,7 +7,7 @@ class About extends Component {
       <div id="page-container">
         <div>
           <div className="about-grid-info">
-              <img className="pp"></img>
+              <img className="pp" alt="profilepicture"></img>
               <div>
               <h1>about;</h1>
                 <div className="contact-icons">
