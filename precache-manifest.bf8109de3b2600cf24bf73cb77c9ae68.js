@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "0cd39448921de878ac33622c0c61db58",
-    "url": "/home/static/media/Lars-Mono.0cd39448.woff2"
+    "revision": "fe257c4d18a550acb04e2333efc3c689",
+    "url": "/home/static/media/Lars-Light.fe257c4d.woff2"
   },
   {
-    "revision": "b262ea068aac08b7039f",
+    "revision": "34cdb1950c051f43e2a1",
     "url": "/home/static/css/main.dced1c13.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/home/static/js/2.225fcca9.chunk.js"
   },
   {
-    "revision": "fe257c4d18a550acb04e2333efc3c689",
-    "url": "/home/static/media/Lars-Light.fe257c4d.woff2"
-  },
-  {
-    "revision": "b262ea068aac08b7039f",
-    "url": "/home/static/js/main.b262ea06.chunk.js"
-  },
-  {
     "revision": "703f6f95453b67cfd952c9da9c2d32a5",
     "url": "/home/static/media/Lars-Mono.703f6f95.eot"
+  },
+  {
+    "revision": "34cdb1950c051f43e2a1",
+    "url": "/home/static/js/main.34cdb195.chunk.js"
+  },
+  {
+    "revision": "0cd39448921de878ac33622c0c61db58",
+    "url": "/home/static/media/Lars-Mono.0cd39448.woff2"
   },
   {
     "revision": "eccb076b71ad3d7f73ce3341e7d6f034",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/home/static/css/2.61eeff29.chunk.css"
   },
   {
-    "revision": "fd55c124bf9710f69515d01f92400034",
+    "revision": "eda4d2334385790a0b022fc7c34167e4",
     "url": "/home/index.html"
   }
 ];
