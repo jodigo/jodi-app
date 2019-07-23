@@ -29,7 +29,6 @@ export default class HomePage extends Component {
                   )
                   <Typist.Backspace count={1} delay={1700} />
                 </Typist>
-              
             </h1>
           </div>   
         </div>
