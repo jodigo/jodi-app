@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "fe257c4d18a550acb04e2333efc3c689",
-    "url": "/home/static/media/Lars-Light.fe257c4d.woff2"
+    "revision": "703f6f95453b67cfd952c9da9c2d32a5",
+    "url": "/home/static/media/Lars-Mono.703f6f95.eot"
   },
   {
-    "revision": "d975e5dc131001aac30c",
+    "revision": "5c9d6e71005b37c26b5f",
     "url": "/home/static/css/main.dced1c13.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/home/static/js/2.ffa71a17.chunk.js"
   },
   {
-    "revision": "703f6f95453b67cfd952c9da9c2d32a5",
-    "url": "/home/static/media/Lars-Mono.703f6f95.eot"
+    "revision": "fe257c4d18a550acb04e2333efc3c689",
+    "url": "/home/static/media/Lars-Light.fe257c4d.woff2"
   },
   {
-    "revision": "d975e5dc131001aac30c",
-    "url": "/home/static/js/main.d975e5dc.chunk.js"
+    "revision": "5c9d6e71005b37c26b5f",
+    "url": "/home/static/js/main.5c9d6e71.chunk.js"
   },
   {
     "revision": "0cd39448921de878ac33622c0c61db58",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/home/static/css/2.61eeff29.chunk.css"
   },
   {
-    "revision": "48e2ca3db4fc1a596d5f342769a31b7c",
+    "revision": "adb615bc997583b742ea1b7aead56d93",
     "url": "/home/index.html"
   }
 ];
