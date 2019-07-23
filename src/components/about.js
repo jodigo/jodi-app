@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Card, CardText } from 'react-mdl';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 import CareerCards from './careercards'
 
 class About extends Component {
