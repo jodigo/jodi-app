@@ -255,6 +255,10 @@ svg path {
   background: grey;
 }
 
+.map-marker {
+  color: rgb(17, 17, 17);
+}
+
 /* Contact Page  */
 .contact-icons i {
   font-size: 2em;
