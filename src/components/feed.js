@@ -6,7 +6,7 @@ const feed = [
     id: 'ubc',
     title: 'The University of British Columbia',
     address: '2075 Lower Mall, Vancouver, BC V6T 1Z2',
-    heading: 'Where it all begins..',
+    heading: 'I decided to make a simple-ish website to practice React\'s Hook and how to use `useState`, which releases after the new 16.8 React version. I thought, might as well make this my portfolio/personal website since I need one :)',
     other: '',
     coordinates: [ 49.26161773, -123.24955847 ]
   },
@@ -53,7 +53,7 @@ const Feed = () => {
     latitude: 49.21920015,
     longitude: -123.13836515,
     zoom: 10.5,
-    width: '50vw',
+    width: '100vw',
     height: '100vh'
   });
 
@@ -119,12 +119,13 @@ const Feed = () => {
         <h1>feed;</h1>
         {feed.map(item => {
           return (
-            <section id={item.id} key={item.id} ref={refs[item.id]} style={{ height: '500px' }}>
+            <section id={item.id} key={item.id} ref={refs[item.id]} className='post-card'>
               <h4>{item.title}</h4>
               <p>{item.heading}</p>
               <small id="citation">
                 {item.other}
               </small>
+              <div><a className="continue-button">Continue reading</a></div>
             </section>
           );
         })}
