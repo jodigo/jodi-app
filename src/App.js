@@ -1,4 +1,4 @@
-import React, { useState, Component } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
