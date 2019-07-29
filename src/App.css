@@ -256,7 +256,32 @@ svg path {
 }
 
 .map-marker {
-  color: rgb(17, 17, 17);
+  color: red;
+}
+
+.post-card {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-card p {
+  padding: 0px 40px;
+}
+
+.continue-button {
+  text-decoration: none;
+  display: block;
+  padding: .5rem 1rem;
+  line-height: 1;
+  border-radius: 3rem;
+  border: 1px solid;
+  text-align: center;
+  width: 100%;
+  max-width: 15rem;
+  margin: 0 auto;
 }
 
 /* Contact Page  */

@@ -53,7 +53,7 @@ const Feed = () => {
     latitude: 49.21920015,
     longitude: -123.13836515,
     zoom: 10.5,
-    width: '100vw',
+    width: '50vw',
     height: '100vh'
   });
 
@@ -68,7 +68,7 @@ const Feed = () => {
       window.addEventListener("keydown", listener);
 
       return () => {
-          window.removeEventListener("keydown", listener);
+        window.removeEventListener("keydown", listener);
       }
   }, [])
 
