@@ -6,33 +6,41 @@ const feed = [
     id: 'ubc',
     title: 'The University of British Columbia',
     address: '2075 Lower Mall, Vancouver, BC V6T 1Z2',
-    heading: 'I decided to make a simple-ish website to practice React\'s Hook and how to use `useState`, which releases after the new 16.8 React version. I thought, might as well make this my portfolio/personal website since I need one :)',
+    heading: 'I decided to make a simple-ish website to practice React\'s Hook and how to use `useState`, which releases after the new 16.8 React version. I thought might as well make this my portfolio/personal website since I need one :) also, semicolon looks like letter j.',
     other: '',
     coordinates: [ 49.26161773, -123.24955847 ]
+  },
+  // {
+  //   id: '720-sweets',
+  //   title: '720 Sweets',
+  //   address: '3278 W Broadway, Vancouver, BC V6K 2H4',
+  //   heading: 'Ice cream spot',
+  //   other: '',
+  //   coordinates: [ 49.26397, -123.16124 ]
+  // },
+  {
+    id: 'rew',
+    title: 'Real Estate Wire (REW)',
+    address: '110 W 2nd Ave, Vancouver, BC V5Y 1C2',
+    heading: 'I learned a lot from my experience here as a full stack developer. My 8 months here allowed to create customer facing features and learn how to write beautiful codes.',
+    other: ['Link', 'http://www.rew.ca/'],
+    coordinates: [49.268960, -123.106840]
+  },
+  {
+    id: 'vgh',
+    title: 'VGH Research Pavilion',
+    address: '828 W 10th Ave, Vancouver, BC V5Z 1M9',
+    heading: 'My experience here allowed me to integrate my interest in machine learning and web development by creating a data visualization app to provide NLP analysis result of conversation data between doctors and patients.',
+    other: '',
+    coordinates: [49.262530, -123.13140]
   },
   {
     id: 'trafiq',
     title: 'Trafiq',
     address: '4216 Main St, Vancouver, BC V5V 3P9',
-    heading: 'Relaxed, elegant European cafe with items ranging from cakes & croissants to soups & sandwiches.',  
+    heading: 'My favourite breakfast spot. Relaxed, elegant European cafe with items ranging from cakes & croissants to soups & sandwiches.',  
     other: '',
     coordinates: [ 49.24733, -123.10078 ]
-  },
-  {
-    id: '720-sweets',
-    title: '720 Sweets',
-    address: '3278 W Broadway, Vancouver, BC V6K 2H4',
-    heading: 'Ice cream spot',
-    other: '',
-    coordinates: [ 49.26397, -123.16124 ]
-  },
-  {
-    id: 'charing-cross',
-    title: 'Charing Cross Hotel',
-    address: '3278 W Broadway, Vancouver, BC V6K 2H4',
-    heading: 'Walter writes to Oberstein and convinces him to meet in the smoking room of the Charing Cross Hotel where he promises additional plans for the submarine in exchange for money. The plan works and Holmes and Watson catch both criminals.',
-    other: 'Adapted from <a href="http://www.gutenberg.org/files/2346/2346-h/2346-h.htm">Project Gutenberg</a>',
-    coordinates: [49.27397, -123.16124]
   },
 ];
 
@@ -122,9 +130,16 @@ const Feed = () => {
             <section id={item.id} key={item.id} ref={refs[item.id]} className='post-card'>
               <h4>{item.title}</h4>
               <p>{item.heading}</p>
-              <small id="citation">
-                {item.other}
-              </small>
+              { 
+                item.other != '' &&
+                <a id="citation" href={item.other[1]}>
+                  <small> 
+                    {item.other[0]}
+                  </small>
+                  <br></br>
+                  <br></br>
+                </a>
+              }
               <div><a className="continue-button">Continue reading</a></div>
             </section>
           );

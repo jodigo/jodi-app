@@ -231,6 +231,9 @@ svg path {
   background-position: center center;  
 }
 
+.about-skills-subtitle {
+  margin-top: 0;
+}
 
 /* Feed Page */
 #feed-container {
