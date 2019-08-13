@@ -33,7 +33,7 @@ class About extends Component {
                     </p>
                   </div>
                 </div>
-                <a href="https://docs.google.com/document/d/1zOlTHWt7R2cu_RT23C19l43VKWKZgfR-AOsio7vGjIQ/edit?usp=sharing" download className="download-resume">
+                <a href="https://www.dropbox.com/s/bccizshq2jqgirt/Jodi%20Gunawan%20Resume%20-%201%20Page%202020.pdf?dl=0" download className="download-resume">
                   Resume
                 </a>
               </div> 
