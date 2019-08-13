@@ -87,8 +87,8 @@ class About extends Component {
               <h6 className="about-skills-subtitle">Languages</h6>
               <p>
                 <ul>
-                  <li><p>HTML5 + CSS</p></li>
-                  <li><p>Javascript</p></li>
+                  <li><p>HTML5 + CSS3</p></li>
+                  <li><p>Javascript/jQuery</p></li>
                   <li><p>Python</p></li>
                   <li><p>Ruby on Rails</p></li>
                   <li><p>C/C++</p></li>
@@ -133,6 +133,18 @@ class About extends Component {
         </div>
         
         <br></br>
+
+        <div className="education container">
+          <h5>Education</h5><hr></hr>
+          <div className="about-education-container">
+            <p>
+              <strong>University of British Columbia</strong> | Bachelor of Applied Science. Electrical Engineering, 2020.
+            </p>
+          </div>	     
+        </div>    
+
+        <br></br> 
+
         <div className="about-skills container">
           <h5>Interests</h5><hr></hr>
           <div className="col-sm">

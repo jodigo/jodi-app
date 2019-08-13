@@ -144,7 +144,7 @@ function Feed() {
                   <br></br>
                 </a>
               }
-              <div><a className="continue-button">Continue reading</a></div>
+              {/* <div><a className="continue-button">Continue reading</a></div> */}
             </section>
           );
         })}
