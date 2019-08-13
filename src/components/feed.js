@@ -1,12 +1,12 @@
 import React, { createRef, useState , useEffect } from 'react'
-import ReactMapGL, { Marker, Popup } from 'react-map-gl'
+import ReactMapGL, { Marker, Popup, NavigationControl } from 'react-map-gl'
 
 const feed = [
   {
     id: 'ubc',
     title: 'The University of British Columbia',
     address: '2075 Lower Mall, Vancouver, BC V6T 1Z2',
-    heading: 'I decided to make a simple-ish website to practice React\'s Hook and how to use `useState`, which releases after the new 16.8 React version. I thought might as well make this my portfolio/personal website since I need one :) also, semicolon looks like letter j.',
+    heading: 'I decided to make a simple-ish website to practice React\'s Hook and how to use <code>useState</code>, which releases after the new 16.8 React version. I thought might as well make this my portfolio/personal website since I need one :) also, semicolon looks like letter j.',
     other: '',
     coordinates: [ 49.26161773, -123.24955847 ]
   },
@@ -23,7 +23,7 @@ const feed = [
     title: 'Real Estate Wire (REW)',
     address: '110 W 2nd Ave, Vancouver, BC V5Y 1C2',
     heading: 'I learned a lot from my experience here as a full stack developer. My 8 months here allowed to create customer facing features and learn how to write beautiful codes.',
-    other: ['Link', 'http://www.rew.ca/'],
+    other: ['Link', 'http://www.rew.ca/news'],
     coordinates: [49.268960, -123.106840]
   },
   {
@@ -44,7 +44,7 @@ const feed = [
   },
 ];
 
-const Feed = () => {
+function Feed() {
   const refs = feed.reduce((acc, value) => {
     acc[value.id] = createRef();
     return acc;
@@ -91,34 +91,38 @@ const Feed = () => {
               setViewport(viewport);
           }}
           >
-              {feed.map(spot =>(
-                  <Marker 
-                  key={spot.id}
-                  latitude={spot.coordinates[0]}
-                  longitude={spot.coordinates[1]}>
-                      <i className="fa fa-thumb-tack map-marker" id={spot.id} onClick={(e) => {
-                          handleClick(e.target.id);
-                          e.preventDefault();
-                          setSelectedSpot(spot);
-                      }}></i>
-                  </Marker>
-              ))};
+            {feed.map(spot =>(
+              <Marker 
+              key={spot.id}
+              latitude={spot.coordinates[0]}
+              longitude={spot.coordinates[1]}>
+                <i className="fa fa-thumb-tack map-marker" id={spot.id} onClick={(e) => {
+                  handleClick(e.target.id);
+                  e.preventDefault();
+                  setSelectedSpot(spot);
+                }}></i>
+              </Marker>
+            ))};
 
-              {selectedSpot && (
-                  <Popup 
-                      latitude={selectedSpot.coordinates[0]}
-                      longitude={selectedSpot.coordinates[1]}
-                      onClose={() => {
-                          setSelectedSpot(null);
-                      }}
-                      onClick={() => {
+            <div style={{position: 'absolute', bottom: '1%', left: '1%'}}>
+              <NavigationControl/>
+            </div>
+            
+            {selectedSpot && (
+              <Popup 
+                latitude={selectedSpot.coordinates[0]}
+                longitude={selectedSpot.coordinates[1]}
+                onClose={() => {
+                    setSelectedSpot(null);
+                }}
+                onClick={() => {
 
-                      }}>
-                      <div>
-                          <h5>{selectedSpot.title}</h5>
-                      </div>
-                  </Popup>
-              )}
+                }}>
+                <div>
+                  <h5>{selectedSpot.title}</h5>
+                </div>
+              </Popup>
+            )}
           </ReactMapGL>
         </div>
       </div>
@@ -129,7 +133,7 @@ const Feed = () => {
           return (
             <section id={item.id} key={item.id} ref={refs[item.id]} className='post-card'>
               <h4>{item.title}</h4>
-              <p>{item.heading}</p>
+              <p dangerouslySetInnerHTML={{__html: item.heading}}></p>
               { 
                 item.other != '' &&
                 <a id="citation" href={item.other[1]}>

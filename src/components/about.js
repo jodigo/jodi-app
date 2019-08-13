@@ -20,13 +20,13 @@ class About extends Component {
                   <div>
                     <p>
                     <a href="https://www.instagram.com/jodigunawan/" target="_blank" rel="noopener noreferrer">
-                      Instagram
+                      Instagram 
                     </a>
-                    /
+                    &nbsp;/&nbsp;
                     <a href="https://www.linkedin.com/in/jodi-gunawan/" target="_blank" rel="noopener noreferrer">
                       LinkedIn
                     </a>
-                    / 
+                    &nbsp;/&nbsp;
                     <a href="https://github.com/jodigo" target="_blank" rel="noopener noreferrer">
                       Github
                     </a>
@@ -48,25 +48,25 @@ class About extends Component {
           end={"August 2019"}
           title={"Junior Full Stack Developer"}
           location={"UBC (Health Research Pavilion)"}
-          descriptions={["Implemented Natural Language Processing model for short text message analytic tools using predefined label and topic modelling with UBC Data Science Research Experts", 
-          "Developed data visualization features to provide interactive informative display of processed data using D3.js, Plotly and Angular 6",
-          "Redesigned the API and application architecture using Python, AWS, MS Azure and Docker, to create partial-serverless microservice architecture which increases modularity and reduces costs"
+          descriptions={["Redesigned the API and architecture using Python, AWS, Microsoft Azure and Docker to create partial serverless microservice architecture which increases modularity and reduces costs by 50%",
+          "Developed a dashboard and a data visualization feature to provide interactive informative display of processed conversational data using D3.js, ChartJS, React and Angular 6 in 2 weeks duration",
+          "Implemented Natural Language Processing model for short text message analytic tools using predefined label, topic modelling and sentiment analysis with UBC Data Science Research Experts"
           ]}
           link={"https://www.msfhr.org/smart-text-analytic-tools-stat-analysis-patient-centred-communications-strengthen-health-systems-bc"}
-          techs={"Angular 6, React, AWS(S3, Blob, Lambda, Elastic BeanStalk, ECR), Microsoft Azure, Docker, Flask, PostgreSQL, Scikit Learn, Tensorflow"}
+          techs={"Angular 6, React, AWS(S3, Lambda, Elastic BeanStalk, ECR), Microsoft Azure, Docker, Flask, PostgreSQL, Scikit Learn, Tensorflow"}
         />
         <CareerCards
           start={"January 2018"}
           end={"August 2018"}
           title={"Software Developer"}
           location={"Glacier Media Inc - Real Estate Wire"}
-          descriptions={["Integrated an Event Tracking system to track the user activity using Google Bigquery for data analytics",
-          "Migrated database from third party CMS Polopoly to the local PostgreSQL database",
-          "Developed real estate news site using Coffeescript and AWS and search results localization which increased page traffic by 20%",
-          "Participated in bi-weekly sprints and kanban flow in agile culture with JIRA ticketing system"
+          descriptions={["Developed real estate news site stored in AWS S3 using JS and search results localization using Rails which boosted user retention by 100%",
+          "Implemented an event tracking system using Google Bigquery to analyze the user pattern behavior for website data analytics",
+          "Migrated a legacy third party CMS Polopoly via a database design and import using PostgreSQL",
+          "Achieved 5 out of 7 successful biweekly sprints in Agile and Kanban culture with JIRA ticketing system"
           ]}
           link={"https://www.rew.ca/news"}
-          techs={"AWS, Coffeescript, Google Bigquery, JIRA, PostgreSQL, Redis, Ruby on Rails 5, Sass"}
+          techs={"AWS, Coffeescript, Google Bigquery, Heroku, JIRA, PostgreSQL, Redis, Ruby on Rails 5, Sass"}
         />
         <CareerCards
           start={"September 2017"}
@@ -104,7 +104,7 @@ class About extends Component {
               <h6 className="about-skills-subtitle">Frameworks + Libraries</h6>
               <p>
                 <ul>
-                  <li><p>React</p></li>
+                  <li><p>React.js</p></li>
                   <li><p>Angular</p></li>
                   <li><p>Flask</p></li>
                   <li><p>Amazon Web Services (AWS)</p></li>
