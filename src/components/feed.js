@@ -68,16 +68,16 @@ function Feed() {
   const [selectedSpot, setSelectedSpot] = useState(null);
 
   useEffect(() => {
-      const listener = e => {
-          if (e.key === "Escape"){
-              setSelectedSpot(null);
-          }
-      };
-      window.addEventListener("keydown", listener);
+    const listener = e => {
+        if (e.key === "Escape"){
+            setSelectedSpot(null);
+        }
+    };
+    window.addEventListener("keydown", listener);
 
-      return () => {
-        window.removeEventListener("keydown", listener);
-      }
+    return () => {
+      window.removeEventListener("keydown", listener);
+    }
   }, [])
 
   return (
