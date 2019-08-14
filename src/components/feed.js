@@ -70,7 +70,7 @@ function Feed() {
   useEffect(() => {
     const listener = e => {
         if (e.key === "Escape"){
-            setSelectedSpot(null);
+          setSelectedSpot(null);
         }
     };
     window.addEventListener("keydown", listener);
@@ -88,6 +88,11 @@ function Feed() {
           {...viewport}
           mapboxApiAccessToken="pk.eyJ1Ijoiam9kaWdvIiwiYSI6ImNqeWZhMXpkczA5Y2ozaG52Z2l0Y29qa3IifQ.zglTcX0xV8BW_o1Umfx6Hg"
           onViewportChange={ viewport => {
+              if(viewport.width < 600){
+                viewport.width = window.innerWidth;
+                viewport.height = 375;
+                console.log("smoll")
+              }
               setViewport(viewport);
           }}
           >
@@ -132,17 +137,19 @@ function Feed() {
         {feed.map(item => {
           return (
             <section id={item.id} key={item.id} ref={refs[item.id]} className='post-card'>
-              <h4>{item.title}</h4>
+              <h4 className='post-card-title'>{item.title}</h4>
               <p dangerouslySetInnerHTML={{__html: item.heading}}></p>
               { 
                 item.other != '' &&
-                <a id="citation" href={item.other[1]}>
-                  <small> 
-                    {item.other[0]}
-                  </small>
-                  <br></br>
-                  <br></br>
-                </a>
+                <p>
+                  <a id="citation" href={item.other[1]}>
+                    <small> 
+                      {item.other[0]}
+                    </small>
+                    <br></br>
+                    <br></br>
+                  </a>
+                </p>
               }
               {/* <div><a className="continue-button">Continue reading</a></div> */}
             </section>
