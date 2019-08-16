@@ -1,6 +1,6 @@
-## Jodi Gunawan Personal Website
+## Jodi Gunawan
 
-This project is my personal portfolio/website.
+https://jodigo.github.io/home
 
 ### Motivation
 
