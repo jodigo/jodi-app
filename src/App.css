@@ -162,6 +162,12 @@ svg path {
 .link {
   text-decoration: underline;
 }
+.desktop {
+  display: none;
+}
+.mobile {
+  display: flex;
+}
 
 /* Home Page */
 .homepage-banner {
@@ -315,13 +321,6 @@ svg path {
 
   .small {
     display: none;
-  }
-
-  .desktop {
-    display: none;
-  }
-  .mobile {
-    display: flex;
   }
 }
 
