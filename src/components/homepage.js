@@ -49,12 +49,12 @@ export default class HomePage extends Component {
                 <h6>I moved to Vancouver, Canada.</h6>
                 <h6>I'm now a student at UBC.</h6>
                 <h6>I'm currently looking for a full-time software engineer position.</h6>
-                <h6>I play basketball whenever I am not working/studying.</h6>
+                <h6>I play basketball and go on food-venture whenever I am not working/studying.</h6>
                 <h6>. .</h6>
                 <h6>. </h6>
               </div>
               <div className="homepage-img">
-                <img className='pp-home' src={require('../assets/pp2.png')}></img>
+                <img className='pp-home' src={require('../assets/home.png')}></img>
               </div>
             </div>
           </div>   
