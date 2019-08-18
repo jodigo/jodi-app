@@ -5,7 +5,7 @@ class CareerCards extends Component {
     render() {
         var descriptions = this.props.descriptions.map(function(value, i){
             return (
-                <li><p>{value}</p></li>
+                <li><p dangerouslySetInnerHTML={{__html: value}}></p></li>
             );
         });
         return(

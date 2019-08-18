@@ -15,7 +15,7 @@ class About extends Component {
                     <p>Vancouver, Canada</p>
                   </div>
                   <div>
-                    <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1098@gmail.com</a></p>
+                    <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1998 (at) gmail (dot) com</a></p>
                   </div>
                   <div>
                     <p>
@@ -49,7 +49,7 @@ class About extends Component {
           title={"Junior Full Stack Developer"}
           location={"UBC (Health Research Pavilion)"}
           descriptions={["Redesigned the API and architecture using Python, AWS, Microsoft Azure and Docker to create partial serverless microservice architecture which increases modularity and reduces costs by 50%",
-          "Developed a dashboard and a data visualization feature to provide interactive informative display of processed conversational data using D3.js, ChartJS, React and Angular 6 in 2 weeks duration",
+          "Developed a dashboard using D3.js and React and a data visualization feature using ChartJS and Angular to provide interactive informative display of processed conversational data in 2 weeks duration",
           "Implemented Natural Language Processing model for short text message analytic tools using predefined label, topic modelling and sentiment analysis with UBC Data Science Research Experts"
           ]}
           link={"https://www.msfhr.org/smart-text-analytic-tools-stat-analysis-patient-centred-communications-strengthen-health-systems-bc"}
@@ -60,12 +60,12 @@ class About extends Component {
           end={"August 2018"}
           title={"Software Developer"}
           location={"Glacier Media Inc - Real Estate Wire"}
-          descriptions={["Developed real estate news site stored in AWS S3 using JS and search results localization using Rails which boosted user retention by 100%",
+          descriptions={["Developed <a href='https://www.rew.ca/news'>real estate news site</a> stored in AWS S3 using JS and search results localization using Rails which boosted user retention by 100%",
           "Implemented an event tracking system using Google Bigquery to analyze the user pattern behavior for website data analytics",
           "Migrated a legacy third party CMS Polopoly via a database design and import using PostgreSQL",
-          "Achieved 5 out of 7 successful biweekly sprints in Agile and Kanban culture with JIRA ticketing system"
+          "Participated in biweekly sprints in Agile and Kanban culture with JIRA ticketing system"
           ]}
-          link={"https://www.rew.ca/news"}
+          link={"https://www.rew.ca/"}
           techs={"AWS, Coffeescript, Google Bigquery, Heroku, JIRA, PostgreSQL, Redis, Ruby on Rails 5, Sass"}
         />
         <CareerCards
@@ -89,6 +89,7 @@ class About extends Component {
                 <ul>
                   <li><p>HTML5 + CSS3</p></li>
                   <li><p>Javascript/jQuery</p></li>
+                  <li><p>Typescript</p></li>
                   <li><p>Python</p></li>
                   <li><p>Ruby on Rails</p></li>
                   <li><p>C/C++</p></li>
@@ -141,17 +142,14 @@ class About extends Component {
               <strong>University of British Columbia</strong> | Bachelor of Applied Science. Electrical Engineering, 2020.
             </p>
           </div>	     
-        </div>    
+        </div>
 
         <br></br> 
 
         <div className="about-skills container">
-          <h5>Interests</h5><hr></hr>
+          <h5>Projects</h5><hr></hr>
           <div className="col-sm">
-            <h6 className="about-skills-subtitle">Basketball</h6>
-            <h6 className="about-skills-subtitle">Classical Guitar</h6>
-            <h6 className="about-skills-subtitle">Food</h6>
-            <h6 className="about-skills-subtitle">Streetwear</h6>
+            <h6 className="about-skills-subtitle">UBC GISAU: <a href="https://www.gisaubc.com" target="_blank">gisaubc.com</a></h6>
           </div>
         </div>
       </div>

@@ -162,10 +162,40 @@ svg path {
 /* Home Page */
 .homepage-banner {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle; 
-  height: 90vh;
+  flex-direction: column;
+}
+
+.homepage-title {
+  text-align: right;
+}
+
+.homepage-column {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage-info {
+  width: 50%;
+}
+
+.homepage-img {
+  background: grey;
+  width: 50%;
+  overflow: hidden;
+}
+
+
+.homepage-info > h6 {
+  font-size: 110%;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.pp-home {
+  width: 50%;
+  height: 100%;
+  
 }
 
 /* About Page */
@@ -235,6 +265,7 @@ svg path {
 
 .post-card p {
   padding: 0px 40px;
+  text-align: center !important;
 }
 
 .post-container h1 {
