@@ -96,7 +96,7 @@ function Feed() {
           {...viewport}
           mapboxApiAccessToken="pk.eyJ1Ijoiam9kaWdvIiwiYSI6ImNqeWZhMXpkczA5Y2ozaG52Z2l0Y29qa3IifQ.zglTcX0xV8BW_o1Umfx6Hg"
           onViewportChange={ viewport => {
-              if(viewport.width < 600){
+              if(viewport.width < 500){
                 viewport.width = window.innerWidth;
                 viewport.height = 375;
                 console.log("smoll")

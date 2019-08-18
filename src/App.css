@@ -167,21 +167,23 @@ svg path {
 
 .homepage-title {
   text-align: right;
+  max-width: 375px;
+  overflow: hidden;
 }
 
 .homepage-column {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .homepage-info {
-  width: 45%;
+  width: 100%;
 }
 
 .homepage-img {
   background: grey;
-  width: 55%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -196,7 +198,7 @@ svg path {
   width: 100%;
   height: 100%;
   filter: grayscale();
-  border: solid gray 1px;
+  border: solid black 1px;
 }
 
 /* About Page */
@@ -310,10 +312,51 @@ svg path {
   .small {
     display: none;
   }
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  #toggle-light {
+    right: 50%;
+  }
+
+  .homepage-column {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .homepage-info {
+    width: 45%;
+  }
+
+  .homepage-title {
+    max-width: none;
+  }
+  
+  .homepage-img {
+    background: grey;
+    width: 55%;
+    overflow: hidden;
+  }
+
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   #toggle-light {
     right: 50%;
   }
@@ -333,13 +376,6 @@ svg path {
     min-height: 100vh;
     margin-left: 50%;
     width: 50%;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  #toggle-light {
-    right: 50%;
   }
 }
 

@@ -42,7 +42,10 @@ export default class HomePage extends Component {
                 </Typist>
               </h1>
             </Link>
-            <div className="homepage-column">
+            <div className="homepage-column container">
+              <div className="homepage-img mobile">
+                <img className='pp-home' src={require('../assets/home.png')}></img>
+              </div>
               <div className="homepage-info">
                 <h3>Hi, I'm Jodi.</h3>
                 <h6>I was born in Bali, Indonesia.</h6>
@@ -53,7 +56,7 @@ export default class HomePage extends Component {
                 <h6>. .</h6>
                 <h6>. </h6>
               </div>
-              <div className="homepage-img">
+              <div className="homepage-img desktop">
                 <img className='pp-home' src={require('../assets/home.png')}></img>
               </div>
             </div>
