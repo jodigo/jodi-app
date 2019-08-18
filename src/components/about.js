@@ -12,9 +12,6 @@ class About extends Component {
               <h1>about;</h1>
                 <div className="contact-icons">
                   <div>
-                    <p>Vancouver, Canada</p>
-                  </div>
-                  <div>
                     <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1998 (at) gmail (dot) com</a></p>
                   </div>
                   <div>
@@ -149,7 +146,7 @@ class About extends Component {
         <div className="about-skills container">
           <h5>Projects</h5><hr></hr>
           <div className="col-sm">
-            <h6 className="about-skills-subtitle">UBC GISAU: <a href="https://www.gisaubc.com" target="_blank">gisaubc.com</a></h6>
+            <h6 className="about-skills-subtitle">UBC GISAU: <a href="https://www.gisaubc.com" target="_blank" className='link'>gisaubc.com</a></h6>
           </div>
         </div>
       </div>
