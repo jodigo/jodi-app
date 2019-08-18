@@ -159,6 +159,10 @@ svg path {
   text-decoration: underline;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 /* Home Page */
 .homepage-banner {
   display: flex;
