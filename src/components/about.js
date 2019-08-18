@@ -30,7 +30,7 @@ class About extends Component {
                     </p>
                   </div>
                 </div>
-                <a href="https://www.dropbox.com/s/bccizshq2jqgirt/Jodi%20Gunawan%20Resume%20-%201%20Page%202020.pdf?dl=0" download target="_blank" className="download-resume">
+                <a href={require('../assets/jodigunawan_resume.pdf')} target="_blank" className="download-resume">
                   Resume
                 </a>
               </div> 
