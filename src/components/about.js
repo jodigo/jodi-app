@@ -30,7 +30,7 @@ class About extends Component {
                     </p>
                   </div>
                 </div>
-                <a href={require('../assets/jodigunawan_resume.pdf')} target="_blank" className="download-resume">
+                <a href={require('../assets/jodigunawan_resume.pdf')} target="_blank" rel="noopener noreferrer" className="download-resume">
                   Resume
                 </a>
               </div> 
@@ -82,40 +82,36 @@ class About extends Component {
           <div className="about-skills-container row">
             <div className="col-sm">
               <h6 className="about-skills-subtitle">Languages</h6>
-              <p>
-                <ul>
-                  <li><p>HTML5 + CSS3</p></li>
-                  <li><p>Javascript/jQuery</p></li>
-                  <li><p>Typescript</p></li>
-                  <li><p>Python</p></li>
-                  <li><p>Ruby on Rails</p></li>
-                  <li><p>C/C++</p></li>
-                  <li><p>XML</p></li>
-                  <li><p>SQL</p></li>
-                  <li><p>Git</p></li>
-                  <li><p>System Verilog</p></li>
-                  <li><p>Assembly</p></li>
-                </ul>     
-              </p>         
+              <ul>
+                <li><p>HTML5 + CSS3</p></li>
+                <li><p>Javascript/jQuery</p></li>
+                <li><p>Typescript</p></li>
+                <li><p>Python</p></li>
+                <li><p>Ruby on Rails</p></li>
+                <li><p>C/C++</p></li>
+                <li><p>XML</p></li>
+                <li><p>SQL</p></li>
+                <li><p>Git</p></li>
+                <li><p>System Verilog</p></li>
+                <li><p>Assembly</p></li>
+              </ul>        
             </div>
             <div className="col-sm">
               <h6 className="about-skills-subtitle">Frameworks + Libraries</h6>
-              <p>
-                <ul>
-                  <li><p>React.js</p></li>
-                  <li><p>Angular</p></li>
-                  <li><p>Flask</p></li>
-                  <li><p>Amazon Web Services (AWS)</p></li>
-                  <li><p>Microsoft Azure</p></li>
-                  <li><p>PostgreSQL</p></li>
-                  <li><p>NoSQL</p></li>
-                  <li><p>Docker</p></li>
-                  <li><p>Redis</p></li>
-                  <li><p>ROS</p></li>
-                  <li><p>Sass</p></li>
-                  <li><p>Tensorflow</p></li>
-                </ul>     
-              </p>   
+              <ul>
+                <li><p>React.js</p></li>
+                <li><p>Angular</p></li>
+                <li><p>Flask</p></li>
+                <li><p>Amazon Web Services (AWS)</p></li>
+                <li><p>Microsoft Azure</p></li>
+                <li><p>PostgreSQL</p></li>
+                <li><p>NoSQL</p></li>
+                <li><p>Docker</p></li>
+                <li><p>Redis</p></li>
+                <li><p>ROS</p></li>
+                <li><p>Sass</p></li>
+                <li><p>Tensorflow</p></li>
+              </ul>      
             </div>
             <div className="col-sm">
               <h6 className="about-skills-subtitle">Others</h6>
@@ -146,7 +142,7 @@ class About extends Component {
         <div className="about-skills container">
           <h5>Projects</h5><hr></hr>
           <div className="col-sm">
-            <h6 className="about-skills-subtitle">UBC GISAU: <a href="https://www.gisaubc.com" target="_blank" className='link'>gisaubc.com</a></h6>
+            <h6 className="about-skills-subtitle">UBC GISAU: <a href="https://www.gisaubc.com" target="_blank" className='link' rel="noopener noreferrer">gisaubc.com</a></h6>
           </div>
         </div>
       </div>

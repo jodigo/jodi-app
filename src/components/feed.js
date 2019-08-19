@@ -148,7 +148,7 @@ function Feed() {
               <h4 className='post-card-title'>{item.title}</h4>
               <p dangerouslySetInnerHTML={{__html: item.heading}}></p>
               { 
-                item.other != '' &&
+                item.other !== '' &&
                 <p>
                   <a id="citation" href={item.other[1]}>
                     <small> 
