@@ -176,7 +176,7 @@ svg path {
 }
 
 .homepage-title {
-  text-align: right;
+  text-align: center;
   max-width: 375px;
   overflow: hidden;
 }
