@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "eccb076b71ad3d7f73ce3341e7d6f034",
-    "url": "/home/static/media/Lars-Mono.eccb076b.woff"
+    "revision": "703f6f95453b67cfd952c9da9c2d32a5",
+    "url": "/home/static/media/Lars-Mono.703f6f95.eot"
   },
   {
-    "revision": "8eee88bf36de917ddd36",
-    "url": "/home/static/css/main.978ca78d.chunk.css"
+    "revision": "f1bafc027f31a0101326",
+    "url": "/home/static/css/main.6973c6c3.chunk.css"
   },
   {
     "revision": "4e1ec8947a6857600002",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/home/static/media/jodigunawan_resume.c310062d.pdf"
   },
   {
-    "revision": "137c903bab879e68cdf9",
-    "url": "/home/static/js/2.137c903b.chunk.js"
+    "revision": "d8f99143de1b6e3ed277",
+    "url": "/home/static/js/2.d8f99143.chunk.js"
   },
   {
     "revision": "29bd92a268c1b16d741d2839bb923dfb",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/home/static/media/Lars-Light.fe257c4d.woff2"
   },
   {
-    "revision": "8eee88bf36de917ddd36",
-    "url": "/home/static/js/main.8eee88bf.chunk.js"
+    "revision": "f1bafc027f31a0101326",
+    "url": "/home/static/js/main.f1bafc02.chunk.js"
   },
   {
-    "revision": "703f6f95453b67cfd952c9da9c2d32a5",
-    "url": "/home/static/media/Lars-Mono.703f6f95.eot"
+    "revision": "eccb076b71ad3d7f73ce3341e7d6f034",
+    "url": "/home/static/media/Lars-Mono.eccb076b.woff"
   },
   {
     "revision": "0cd39448921de878ac33622c0c61db58",
@@ -52,11 +52,11 @@ self.__precacheManifest = [
     "url": "/home/static/media/pp.d1dbdfc8.png"
   },
   {
-    "revision": "137c903bab879e68cdf9",
+    "revision": "d8f99143de1b6e3ed277",
     "url": "/home/static/css/2.61eeff29.chunk.css"
   },
   {
-    "revision": "041c16aac24fd7acd36ed628706be740",
+    "revision": "134c18fa989b24c44e9c7931f842cb21",
     "url": "/home/index.html"
   }
 ];
