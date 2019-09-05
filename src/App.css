@@ -237,8 +237,8 @@ svg path {
   -o-object-fit: cover;
   object-fit: cover;
   margin-right: 2rem;
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
   background-image: url('./assets/pp.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -394,4 +394,31 @@ svg path {
   #toggle-light {
     right: 50%;
   }
+}
+
+.fade {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 150ms linear;
 }
