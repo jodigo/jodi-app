@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from './homepage';
-import About from './about';
+import Work from './work';
 import Feed from './feed';
 import Contact from './contact';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
@@ -16,7 +16,7 @@ const Main = () => (
         classNames="fade">
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={About} />
+          <Route path="/work" component={Work} />
           <Route path="/feed" component={Feed} />
           <Route path="/contact" component={Contact} />
         </Switch>

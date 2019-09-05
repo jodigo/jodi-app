@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CareerCards from './careercards'
 
-class About extends Component {
+class Work extends Component {
   render() {
     return (
       <div id="page-container">
@@ -9,7 +9,7 @@ class About extends Component {
           <div className="about-grid-info">
               <img className="pp"></img>
               <div>
-              <h1>about;</h1>
+              <h1>work;</h1>
                 <div className="contact-icons">
                   <div>
                     <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1998 (at) gmail (dot) com</a></p>
@@ -150,4 +150,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Work;

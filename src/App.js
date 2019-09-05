@@ -37,7 +37,7 @@ export default function App() {
         <Header id="header-bar" className={darkMode ? "dark-mode" : "light-mode"} title=" " scroll>
           <Navigation className={darkMode ? "dark-mode" : "light-mode"}>
             <NavLink to="/" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Home</p></NavLink>
-            <NavLink to="/about" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>About</p></NavLink>
+            <NavLink to="/work" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Work</p></NavLink>
             <NavLink to="/feed" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Feed</p></NavLink>
             <NavLink to="/" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}></NavLink>
             {/* <NavLink to="/contact" activeStyle={{ fontWeight: "bold", textDecoration: "line-through"}}><p>Contact</p></NavLink> */}
@@ -64,7 +64,7 @@ export default function App() {
         <Drawer title="j o d i g o ;" id="header-bar">
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <Link to="/work">Work</Link>
             <Link to="/feed">Feed</Link>
             {/* <Link to="/contact">Contact</Link> */}
           </Navigation>

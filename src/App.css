@@ -338,6 +338,10 @@ svg path {
     display: flex;
     flex-direction: row;
   }
+
+  .homepage-banner {
+    padding-top: 50px;
+  }
   
   .homepage-info {
     width: 45%;
