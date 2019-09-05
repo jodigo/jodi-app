@@ -53,10 +53,10 @@ export default class HomePage extends Component {
                 <h6>I am now a student at <a href='https://www.ubc.ca/' target='_blank' className='link' rel="noopener noreferrer">UBC.</a></h6>
                 <h6>I am currently <a href='https://www.linkedin.com/in/jodi-gunawan/' target='_blank' className='link' rel="noopener noreferrer">looking</a> for a full-time software engineer position.</h6>
                 <h6>I play basketball and go on food-venture whenever I am not working/studying.</h6>
-                <h6>. </h6>
-                <h6>. </h6>
+                <br></br>
+                <br></br>
                 <h6>Please feel free to contact. Would be lovely to hear from you: </h6>
-                <h6 style={{color: '#C5394C'}}><a href="mailto:jgunawan.1098@gmail.com"> jgunawan.1998 (at) gmail (dot) com</a></h6>
+                <h6 style={{color: '#C5394C'}}><a href="mailto:jgunawan.1098@gmail.com"> jgunawan.1098 (at) gmail (dot) com</a></h6>
               </div>
               <div className="homepage-img desktop">
                 <img className='pp-home' src={require('../assets/home.png')}></img>

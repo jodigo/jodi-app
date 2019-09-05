@@ -123,7 +123,7 @@ svg path {
 #toggle-light.dark-mode #cut {
   transform: translate(10px, -10px);
   transition-delay: 125ms;
-  fill: rgb(0,0,0);
+  fill: #1a1919;
 }
 #toggle-light.dark-mode #orb {
   transform: scale(1.3) translate(30px, 30px);
@@ -138,7 +138,7 @@ svg path {
 #toggle-light.light-mode #orb {
   transform: scale(1.05) translate(30px, 30px);
   transition-delay: 125ms;
-  fill: black;
+  fill: #1a1919;
 }
 
 .light-mode {
