@@ -12,7 +12,7 @@ class Work extends Component {
               <h1>work;</h1>
                 <div className="contact-icons">
                   <div>
-                    <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1998 (at) gmail (dot) com</a></p>
+                    <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1098 (at) gmail (dot) com</a></p>
                   </div>
                   <div>
                     <p>
@@ -39,7 +39,7 @@ class Work extends Component {
         </div>
         <br></br>
 
-//         <h5>Experiences</h5><hr></hr>
+{/* //         <h5>Experiences</h5><hr></hr>
 //         <CareerCards
 //           start={"May 2019"}
 //           end={"August 2019"}
@@ -126,7 +126,7 @@ class Work extends Component {
 //           </div>
 //         </div>
         
-//         <br></br>
+//         <br></br> */}
 
         <div className="education container">
           <h5>Education</h5><hr></hr>
