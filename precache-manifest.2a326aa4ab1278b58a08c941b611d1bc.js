@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9385bf6eaadd8c4070e9",
-    "url": "/home/static/css/main.0c46dcea.chunk.css"
+    "revision": "9a692cd63664c379038c",
+    "url": "/home/static/css/main.7730e2dc.chunk.css"
   },
   {
-    "revision": "9385bf6eaadd8c4070e9",
-    "url": "/home/static/js/main.9385bf6e.chunk.js"
+    "revision": "9a692cd63664c379038c",
+    "url": "/home/static/js/main.9a692cd6.chunk.js"
   },
   {
     "revision": "4e1ec8947a6857600002",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/home/static/media/Lars-Light.7577ad03.woff"
   },
   {
-    "revision": "0cd39448921de878ac33622c0c61db58",
-    "url": "/home/static/media/Lars-Mono.0cd39448.woff2"
-  },
-  {
     "revision": "703f6f95453b67cfd952c9da9c2d32a5",
     "url": "/home/static/media/Lars-Mono.703f6f95.eot"
+  },
+  {
+    "revision": "0cd39448921de878ac33622c0c61db58",
+    "url": "/home/static/media/Lars-Mono.0cd39448.woff2"
   },
   {
     "revision": "eccb076b71ad3d7f73ce3341e7d6f034",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/jodigunawan_resume.c310062d.pdf"
   },
   {
-    "revision": "d0b3b862cf2cd50a6a769e1d1231da08",
+    "revision": "cb40b18bab8f2cb6abeaffdf2186b9b5",
     "url": "/home/index.html"
   }
 ];
