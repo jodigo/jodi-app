@@ -50,7 +50,7 @@ export default class HomePage extends Component {
                 <h2>Hi, I'm Jodi.</h2>
                 <h6>I was born in Bali, Indonesia.</h6>
                 <h6>I moved to Vancouver, Canada.</h6>
-                <h6>I am 2020 <a href='https://www.ubc.ca/' target='_blank' className='link' rel="noopener noreferrer">UBC graduate.</a></h6>
+                <h6>I am a 2020 <a href='https://www.ubc.ca/' target='_blank' className='link' rel="noopener noreferrer">UBC graduate.</a></h6>
                 <h6>I am currently a software engineer <a href='https://www.linkedin.com/in/jodi-gunawan/' target='_blank' className='link' rel="noopener noreferrer">working</a> at Telus. </h6>
                 <h6>I play basketball and go on food-venture whenever I am not working/studying.</h6>
                 <br></br>
