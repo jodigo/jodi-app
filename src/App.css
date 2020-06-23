@@ -362,6 +362,7 @@ svg path {
   }
   .desktop {
     display: flex;
+    flex-direction: column;
   }
 }
 
