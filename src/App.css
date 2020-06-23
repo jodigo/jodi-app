@@ -167,6 +167,7 @@ svg path {
 }
 .mobile {
   display: flex;
+  flex-direction: column;
 }
 
 /* Home Page */
@@ -195,7 +196,7 @@ svg path {
 .homepage-img {
   background: grey;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   margin: 10px 10px;
 }
@@ -362,7 +363,6 @@ svg path {
   }
   .desktop {
     display: flex;
-    flex-direction: column;
   }
 }
 
