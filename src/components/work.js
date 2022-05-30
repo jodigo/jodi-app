@@ -12,7 +12,7 @@ class Work extends Component {
               <h1>work;</h1>
                 <div className="contact-icons">
                   <div>
-                    <p><a href="mailto:jgunawan.1098@gmail.com">jgunawan.1098 (at) gmail (dot) com</a></p>
+                    <p><a href="mailto:jodihgunawan@gmail.com">jodihgunawan (at) gmail (dot) com</a></p>
                   </div>
                   <div>
                     <p>
@@ -132,7 +132,6 @@ class Work extends Component {
           <h5>Education</h5><hr></hr>
           <div className="about-education-container">
             <p>
-              <strong>University of British Columbia</strong> | Bachelor of Applied Science. Electrical Engineering, 2020.
             </p>
           </div>	     
         </div>
@@ -142,7 +141,7 @@ class Work extends Component {
         <div className="about-skills container">
           <h5>Projects</h5><hr></hr>
           <div className="col-sm">
-            <h6 className="about-skills-subtitle">UBC GISAU: <a href="https://www.gisaubc.com" target="_blank" className='link' rel="noopener noreferrer">gisaubc.com</a></h6>
+//             <h6 className="about-skills-subtitle">UBC GISAU: <a href="https://www.gisaubc.com" target="_blank" className='link' rel="noopener noreferrer">gisaubc.com</a></h6>
           </div>
         </div>
       </div>
